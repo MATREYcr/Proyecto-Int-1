@@ -1,0 +1,56 @@
+.container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.container-eslogan{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 100px;
+
+    width: 50%;
+}
+
+.img-home{
+    width: 2025px;
+    height:800px;
+}
+
+.text-center{
+    font-size: 4em;
+    color: #0C3C60;
+    margin-top: -5%;
+    font-style: italic;
+    font-weight: bolder;
+
+}
+
+.eslogan{
+    font-size: 2em;
+    color:grey;
+    margin-top: -2%;
+    font-weight: normal;
+    
+}
+/* Columnas Home] */
+.columns{
+    margin-top: 5%;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+
+.title-columns{
+    color:#0C3C60;
+}
+.text-columns{
+    font-size: 1.5em;
+   
+}
+

@@ -43,8 +43,8 @@ class Users extends React.Component{
         id:0,
         name:"",
         age:0,
-        "mail": "",
-        date:"",
+        mail: "",
+        animo: Boolean,
 
       },
       modalnsert: false,

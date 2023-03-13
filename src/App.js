@@ -3,10 +3,9 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './Components/NavBar';
 import HomePage from './pages/HomePage';
-import MedicamentosPage from './pages/MedicamentosPage';
-import MedicosPage from './pages/MedicosPage';
-import PacientesPage from './pages/PacientesPage';
-import Patients from './pages/PacientesPage';
+import DepresionPage from './pages/DepresionPage';
+import Inbox from './pages/Inbox';
+import Users from './pages/Users';
 
 function App() {
   return (
@@ -16,9 +15,9 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path='/' element={<HomePage />}/>
-        <Route path='/Pacientes' element={<PacientesPage />}/>
-        <Route path='/Medicos' element={<MedicosPage />}/>
-        <Route path='/Medicamentos' element={<MedicamentosPage />}/>
+        <Route path='/Inbox' element={<Inbox />}/>
+        <Route path='/Users' element={<Users />}/>
+        <Route path='/Depresion' element={<DepresionPage/>}/>
       </Routes>
     </div>
     </>

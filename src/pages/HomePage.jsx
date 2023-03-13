@@ -1,4 +1,7 @@
 import "./styles/stylesPageHome.css";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const HomePage=()=>{
     
     return (
@@ -11,16 +14,19 @@ const HomePage=()=>{
             
             <div className="columns">
                 <div className="column-1">
-                    <h1 className="title-columns">Pacientes</h1>
-                    <p className="text-columns">El Lorem Ipsum fue concebido como un texto de relleno, formateado de una cierta manera para permitir la presentación de elementos gráficos en documentos, sin necesidad de una copia formal.</p>
+                    <h1 className="title-columns">Depresion</h1>
+                    <p className="text-columns">La depresión es un trastorno mental caracterizado fundamentalmente por un bajo estado de ánimo y sentimientos de tristeza, asociados a alteraciones del comportamiento, del grado de actividad y del pensamiento</p>
+                    <button type="button" class="btn btn-primary">Depresion</button>
                 </div>
                 <div className="column-2">
-                    <h1 className="title-columns">Medicos</h1>
-                    <p className="text-columns">El Lorem Ipsum fue concebido como un texto de relleno, formateado de una cierta manera para permitir la presentación de elementos gráficos en documentos, sin necesidad de una copia formal.</p>
+                    <h1 className="title-columns">Ansiedad</h1>
+                    <p className="text-columns">La ansiedad es un sentimiento de miedo, temor e inquietud. Puede hacer que sude, se sienta inquieto y tenso, y tener palpitaciones. Puede ser una reacción normal al estrés.</p>
+                    <button type="button" class="btn btn-primary">Ansiedad</button>
                 </div>
                 <div className="column-3">
-                    <h1 className="title-columns">Medicamentos</h1>
-                    <p className="text-columns">El Lorem Ipsum fue concebido como un texto de relleno, formateado de una cierta manera para permitir la presentación de elementos gráficos en documentos, sin necesidad de una copia formal.</p>
+                    <h1 className="title-columns">Estres</h1>
+                    <p className="text-columns">La depresión es un trastorno mental caracterizado fundamentalmente por un bajo estado de ánimo y sentimientos de tristeza, asociados a alteraciones del comportamiento, del grado de actividad y del pensamiento </p>
+                    <button type="button" class="btn btn-primary">Estres</button>
                 </div>    
             </div>
         </div>

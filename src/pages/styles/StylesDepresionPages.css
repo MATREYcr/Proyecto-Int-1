@@ -1,0 +1,35 @@
+.img-depresion{
+    width: 50%;
+    height: 60%;
+    margin-right: 45%;
+    margin-top: 5%;
+}
+
+.container-Depresion{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color:#FAFAFA;
+    padding: 250px;
+
+    width: 50%;
+}
+
+.text-center{
+    font-size: 4em;
+    color: #0C3C60;
+    margin-top: -40%;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.text-title{
+    display: flex;
+    text-align: center;
+    margin-right: 20%;
+}
+
+.text-paragraph{
+
+}

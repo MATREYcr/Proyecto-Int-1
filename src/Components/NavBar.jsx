@@ -16,9 +16,9 @@ function Navbar() {
         <h2>Salud <span>Mental</span></h2>
         <div className={`links ${clicked ? 'active' : ''}`}>
           <a onClick={handleClick} href="/">Home</a>
-          <a onClick={handleClick} href="/Pacientes">Pacientes</a>
-          <a onClick={handleClick} href="/Medicos">Medicos</a>
-          <a onClick={handleClick} href="/Medicamentos">Medicamentos</a>
+          <a onClick={handleClick} href="/Inbox">Inbox</a>
+          <a onClick={handleClick} href="/Users">Users</a>
+          <a onClick={handleClick} href="/Depresion">Depresion</a>
           <Outlet/>
         </div>
         <div className='burguer'>

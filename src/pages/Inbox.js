@@ -39,7 +39,7 @@ const data = [
   ]
 
 
-class Inbox extends React.Component{
+export class Inbox extends React.Component{
     state = {
       data: data,
       form:{
@@ -141,6 +141,7 @@ class Inbox extends React.Component{
             <h1>Bandeja de entrada</h1>
             <br></br>  
             <br></br> 
+            <div className="table table-responsive">
             <Table>
             <thead>
               <tr>
@@ -173,6 +174,7 @@ class Inbox extends React.Component{
               }
             </tbody>
           </Table>
+          </div>
           </Container>
         {/* Modal Edit--------------------------------------------------------------------------------------------------------------- */}
         <Modal isOpen={this.state.modalShow}>
@@ -281,4 +283,4 @@ class Inbox extends React.Component{
     }
 }
         
-export default Inbox;
+// export default Inbox;
